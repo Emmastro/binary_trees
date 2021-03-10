@@ -20,12 +20,15 @@ if (!new_node)
 
 new_node->n = value;
 new_node->parent = parent;
-new_node->right = NULL;
+new_node->left = NULL;
 
-if (!parent->right)
-	new_node->left = parent->left;
+if (parent->right != NULL)
+{
+	new_node->right = parent->right;
+	parent->right->parent = new_node;
+}
 else
-	new_node->left = NULL;
+	new_node->right = NULL;
 
 parent->right = new_node;
 
