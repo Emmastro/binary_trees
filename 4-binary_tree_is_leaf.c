@@ -3,6 +3,7 @@
 /**
  *binary_tree_is_leaf - check if a node is a leaf
  *@node: node
+ *Return: boolean
  */
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
