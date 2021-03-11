@@ -10,3 +10,5 @@ gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 4-binary_tree_is_leaf.c 
 gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 5-binary_tree_is_root.c tests/5-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o tests/5-root
 
 gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c tests/6-main.c 6-binary_tree_preorder.c 0-binary_tree_node.c -o tests/6-pre
+
+gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 13-binary_tree_nodes.c tests/13-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c -o tests/13-nodes
